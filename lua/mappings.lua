@@ -7,4 +7,7 @@ local map = vim.keymap.set
 map("n", ";", ":", { desc = "CMD enter command mode" })
 map("i", "jk", "<ESC>")
 
+-- ruingl: pls close nvim tree
+map("n", "<leader>e", "<cmd>NvimTreeToggle<CR>", { desc = "Toggle NvimTree" })
+
 -- map({ "n", "i", "v" }, "<C-s>", "<cmd> w <cr>")
